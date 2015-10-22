@@ -1575,6 +1575,6 @@ public class ViewDragHelper {
         if (y > mParentView.getBottom() - mEdgeSize)
             result = EDGE_BOTTOM;
 
-        return result;
+        return EDGE_LEFT;
     }
 }
